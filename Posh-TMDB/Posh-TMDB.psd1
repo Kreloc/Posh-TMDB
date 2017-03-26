@@ -9,31 +9,31 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'Posh-TMDB.psm1'
+# RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '1.0.1'
+ModuleVersion = '1.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
-# GUID = 'f2bd327e-df57-4044-a44b-f85209a199b2'
+GUID = 'ffa2230e-70eb-4d41-95e7-bf9d26692703'
 
 # Author of this module
 Author = 'Mark Ince'
 
 # Company or vendor of this module
-# CompanyName = 'N/A'
+# CompanyName = 'Unknown'
 
 # Copyright statement for this module
-Copyright = '(C) 2017 Mark Ince and all contributors/authors. All rights reserved.'
+Copyright = '(c) 2017 Mark Ince. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'A PowerShell module for The Movie Database API'
+# Description = ''
 
 # Minimum version of the Windows PowerShell engine required by this module
-PowerShellVersion = '5.0'
+# PowerShellVersion = ''
 
 # Name of the Windows PowerShell host required by this module
 # PowerShellHostName = ''
@@ -75,7 +75,7 @@ PowerShellVersion = '5.0'
 # CmdletsToExport = @()
 
 # Variables to export from this module
-# VariablesToExport = @()
+# VariablesToExport = '*'
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
 # AliasesToExport = @()
@@ -101,7 +101,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/kreloc/Posh-TMDB'
+        # ProjectUri = ''
 
         # A URL to an icon representing this module.
         # IconUri = ''
@@ -109,12 +109,9 @@ PrivateData = @{
         # ReleaseNotes of this module
         # ReleaseNotes = ''
 
-        # External dependent modules of this module
-        # ExternalModuleDependencies = ''
-
     } # End of PSData hashtable
-    
- } # End of PrivateData hashtable
+
+} # End of PrivateData hashtable
 
 # HelpInfo URI of this module
 # HelpInfoURI = ''
@@ -123,3 +120,4 @@ PrivateData = @{
 # DefaultCommandPrefix = ''
 
 }
+
