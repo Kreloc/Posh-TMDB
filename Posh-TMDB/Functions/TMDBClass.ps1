@@ -34,7 +34,9 @@ class MovieDB {
 $script:tmdb = [MovieDB]::new()
 If($tmdb.ApiKey -eq "YOUR_APIKEY")
 {
-    throw "Please modify TMDBClass.ps1 by changing `$ApiKey from $ApiKey to your actual`n API from The Movie Database https://www.themoviedb.org/documentation/api"
+    # throw "Please modify TMDBClass.ps1 by changing `$ApiKey from $ApiKey to your actual`n API from The Movie Database https://www.themoviedb.org/documentation/api"
+    Write-Warning "To avoid being prompted for API key when importing, edit the `$ApiKey in TMDBClass.ps1"
+    $tmdb.ApiKey = Read-Host "Please enter your TMDB Api Key"
 }
 # global for testing
 # $Global:tmdb = [MovieDB]::new()
